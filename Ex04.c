@@ -9,7 +9,7 @@ int main(){
 
     do
     {
-        Tc = ((((Tf-32))*5) /9);
+        Tc = ((Tf-32)*5) /9 ;
         printf("%d | %d\n", Tf, Tc); 
         Tf ++ ;
 
